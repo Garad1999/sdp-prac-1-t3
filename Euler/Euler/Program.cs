@@ -36,9 +36,29 @@ namespace Euler
 		}
 		return max_product;
 	}
+	//James Gibson G18G0723
+	//this method produces the sum of al the multiples of 3 and 5 under 1000.
+	public staticint Multiples_of_3_and_5()
+	{
+		int total
+		for(int i = 0; i<1000;i++;)
+		{
+			if (i%3==0)
+			{
+				total = total +i;
+			}
+			else if(i%5==0)
+			{
+				total=total + i;
+			}
+		}
+		return total;
+	}
+	
         static void Main(string[] args)
         {
             Console.WriteLine(Largest_Palindrome_Product());
+			Console.WriteLine("Multiples of 3 and 5 under 1000: " + staticint Multiples_of_3_and_5());
         }
     }
 }
