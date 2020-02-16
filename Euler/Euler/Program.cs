@@ -4,6 +4,9 @@ namespace Euler
 {
     class Program 
    {
+	//Marc Marais
+	//Euler lowest-number 4
+	//Largest Palindrome Product 
 	public static int Largest_Palindrome_Product()
 	{
 		int upper = 999;
