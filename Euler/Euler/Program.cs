@@ -54,11 +54,25 @@ namespace Euler
 		}
 		return total;
 	}
+	public static sumSquareDiff()
+	{ //MPHO's work'
+		int sum = 0;
+		int prod = 0;
+
+		for(int i=0; i<10;i++)
+		{
+			sum += i**2;
+			product += i;
+		}
+		product = product**2;
+		return (product-sum);
+	}
 	
         static void Main(string[] args)
         {
             Console.WriteLine(Largest_Palindrome_Product());
 			Console.WriteLine("Multiples of 3 and 5 under 1000: " + staticint Multiples_of_3_and_5());
+			Console.WriteLine("Smum of diff squares is: " + sumSquareDiff());
         }
     }
 }
